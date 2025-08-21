@@ -333,6 +333,7 @@ He sighs softly and puts on a polite smile.
 ""What can House Ossum do for you today?""
 ",,
 greetingAustralisnormalFamily,PickGreeting,"$id == hegtales_australis score:1200
+$global.hegtales_house_ossum_start score:1000
 $player.australiscontact 
 ","BeginConversation hegtales_australis
 FireAll PopulateOptions","The man is currently looking at his tripad, almost absently before he turns his green eyes to the screen. ""Australis of House Ossum here...""
@@ -2164,7 +2165,7 @@ $taxedborealis = true","He fixes you with a cold, piercing stare, his expression
 
 ""You have a way of testing my patience.""
 
- ""But I won't waste my energy on anger. Say what you came here to say, and let’s get this over with.""",,
+""But I won't waste my energy on anger. Say what you came here to say, and let’s get this over with.""",,
 ,,,,,,
 hegtales_borealiscake,PopulateOptions,"$id == hegtales_borealis score:1000
 HEG_HasModId uaf score:100","SetEnabled hegtales_borealiscakegift false
